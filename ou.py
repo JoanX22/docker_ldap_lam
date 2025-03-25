@@ -22,4 +22,3 @@ ou_name = "directores"                   # Name of the organizational unit
 base_dn = "dc=example,dc=org"   # Your base DN (replace with your actual DN)
 
 create_organizational_unit_ldif(filename, ou_name, base_dn)
-
